@@ -2,3 +2,5 @@ pandas
 scikit-learn
 pgmpy
 streamlit
+sklearn
+joblib
