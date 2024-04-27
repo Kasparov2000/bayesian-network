@@ -10,7 +10,7 @@ def binning(data, column, bins, labels):
 
 
 # Load and preprocess data
-data = pd.read_excel("/content/drive/My Drive/life-insurance-data.xlsx")
+data = pd.read_excel("life-insurance-data.xlsx")
 data.drop(columns=["Client ID", "Policy Number", "Date of Default"], inplace=True)
 
 # Preprocess categorical data
